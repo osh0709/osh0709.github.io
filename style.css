@@ -1,0 +1,204 @@
+/*CSS file*/
+
+
+
+/*Navigation Bar*/
+
+	nav div{
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 3px;
+	}
+
+/*Jumbotron*/
+
+	header{
+		font-family: "Nunito Sans", "sans-serif";
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		color: white;
+	}
+
+	.jumbotron-fluid{
+		background-image: url("images/aquarium.png");
+		background-size: cover;
+		height: 450px;
+	}
+
+
+
+/*HEADERS*/
+	
+	@media screen and (min-width: 601px){
+	h1{
+		font-size: 40px;
+		}
+	}
+
+	@media screen and (max-width: 600px){
+	h1{
+		font-size: 20px;
+		}
+	}
+
+	h2{
+		font-family: "Nunito Sans", "sans-serif";
+		color: hsl(198,100%,52%);
+		letter-spacing: 15px;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 20px;
+	}
+
+	@media screen and (max-width: 600px){
+	h2{
+		font-size: 20px;
+		}
+	}
+
+	@media screen and (max-width: 600px){
+	h1{
+		font-size: 20px;
+		}
+	}
+
+	h5{
+		font-family: "Nunito Sans", "sans-serif";
+		color: midnightblue;
+
+	}
+
+
+
+/*SECTIONS*/
+
+	section{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+/*PARAGRAPHS*/
+	
+	section p{
+		font-family: "Nunito Sans", "sans-serif";
+		text-align: center;
+	}
+
+
+
+/*Hello 4-8*/
+
+	.about-me{
+		font-family: "Nunito Sans", "sans-serif";
+		text-align: center;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.rounded-img{
+		border-radius: 100px;
+		margin: 20px;
+	}
+
+
+/*Break Things Apart*/
+
+	.container-fluid{
+		height: 350px;
+	}
+
+	.container-fluid.col-md-7{
+		background-color: salmon;
+		color: white;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		padding-left: : 0;
+		padding-right: 0;
+		background-image: url(https://media1.tenor.com/images/4191d5b0d0b9378d23fc2356d55cfb59/tenor.gif?itemid=10593316);
+		background-size: cover;
+	}
+
+	.container-fluid.col-md-5{
+		background-color: midnightblue;
+		color: white;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: : 0;
+		padding-right: 0;
+	}
+
+/*Card pictures*/
+
+	.card-img-fit{
+		box-sizing: border-box;
+	}
+
+	.fav-cards{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+/*Questions Nasi Lemak*/
+
+	.btn-lg{
+		border-radius:30px;
+		font-family: "Nunito Sans", "sans-serif";
+		letter-spacing: 5px;
+	}
+
+	.container-fluid.col-6{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		padding-left: : 0;
+		padding-right: 0;
+	}
+
+	@media screen and (max-width: 700px){
+		.btn-lg{
+			height: auto;
+		}
+	}
+
+
+/*Form Fear*/
+
+	.form-type{
+		font-family: "Nunito Sans", "sans-serif";
+		text-transform: uppercase;
+		font-size: 11px;
+		letter-spacing: 4px;
+		color:#191970;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	.form-text{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.col-md-12{
+		padding-left: 30px!important;
+		padding-right: 30px !important;
+	}
+
+
+/*Footer*/
+
+	footer {
+		font-family: "Nunito Sans", "sans-serif";
+		text-transform: uppercase;
+		font-size: 11px;
+		text-align: center;
+		letter-spacing: 4px;
+		color:#191970;
+	}
+
+
